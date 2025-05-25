@@ -1,0 +1,6 @@
+@FestivalLab_HostAddress = http://localhost:5254
+
+GET {{FestivalLab_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
