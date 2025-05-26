@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN232\\code\\FestivalLab\\FestivalLab\\FestivalLab.csproj",
+      "projectUniqueName": "D:\\PRN232\\code\\Slot4\\FestivalLab\\FestivalLab\\FestivalLab.csproj",
       "projectName": "FestivalLab",
-      "projectPath": "D:\\PRN232\\code\\FestivalLab\\FestivalLab\\FestivalLab.csproj",
+      "projectPath": "D:\\PRN232\\code\\Slot4\\FestivalLab\\FestivalLab\\FestivalLab.csproj",
       "packagesPath": "C:\\Users\\thuan\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN232\\code\\FestivalLab\\FestivalLab\\obj\\",
+      "outputPath": "D:\\PRN232\\code\\Slot4\\FestivalLab\\FestivalLab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

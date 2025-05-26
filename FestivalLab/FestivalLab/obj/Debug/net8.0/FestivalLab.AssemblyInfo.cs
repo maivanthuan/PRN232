@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FestivalLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4afabed201101320654987332169a4f8f90ac38f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FestivalLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FestivalLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
