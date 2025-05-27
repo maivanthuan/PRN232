@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN232\\code\\Slot4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|d:\\prn232\\code\\slot4\\slot4\\controllers\\gadgetsodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|solutionrelative:slot4\\controllers\\gadgetsodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|d:\\prn232\\code\\slot4\\slot4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|solutionrelative:slot4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|d:\\prn232\\code\\slot4\\slot4\\odatagadget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|solutionrelative:slot4\\odatagadget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|d:\\prn232\\code\\slot4\\slot4\\controllers\\gadgetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|solutionrelative:slot4\\controllers\\gadgetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|d:\\prn232\\code\\slot4\\slot4\\model\\gadgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|solutionrelative:slot4\\model\\gadgets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|d:\\prn232\\code\\slot4\\slot4\\dbcontext\\myworlddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|solutionrelative:slot4\\dbcontext\\myworlddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|d:\\prn232\\code\\slot4\\slot4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAE0E7AE-600C-4B4E-998D-5F0169988645}|Slot4\\Slot4.csproj|solutionrelative:slot4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GadgetsOdataController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\Slot4\\Slot4\\Controllers\\GadgetsOdataController.cs",
+              "RelativeDocumentMoniker": "Slot4\\Controllers\\GadgetsOdataController.cs",
+              "ToolTip": "D:\\PRN232\\code\\Slot4\\Slot4\\Controllers\\GadgetsOdataController.cs*",
+              "RelativeToolTip": "Slot4\\Controllers\\GadgetsOdataController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:19:45.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ODataGadget.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\Slot4\\Slot4\\ODataGadget.cs",
+              "RelativeDocumentMoniker": "Slot4\\ODataGadget.cs",
+              "ToolTip": "D:\\PRN232\\code\\Slot4\\Slot4\\ODataGadget.cs",
+              "RelativeToolTip": "Slot4\\ODataGadget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:22:18.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GadgetsController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\Slot4\\Slot4\\Controllers\\GadgetsController.cs",
+              "RelativeDocumentMoniker": "Slot4\\Controllers\\GadgetsController.cs",
+              "ToolTip": "D:\\PRN232\\code\\Slot4\\Slot4\\Controllers\\GadgetsController.cs",
+              "RelativeToolTip": "Slot4\\Controllers\\GadgetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:07:32.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\Slot4\\Slot4\\Program.cs",
+              "RelativeDocumentMoniker": "Slot4\\Program.cs",
+              "ToolTip": "D:\\PRN232\\code\\Slot4\\Slot4\\Program.cs*",
+              "RelativeToolTip": "Slot4\\Program.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:50:04.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyWorldDbContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\Slot4\\Slot4\\DBContext\\MyWorldDbContext.cs",
+              "RelativeDocumentMoniker": "Slot4\\DBContext\\MyWorldDbContext.cs",
+              "ToolTip": "D:\\PRN232\\code\\Slot4\\Slot4\\DBContext\\MyWorldDbContext.cs",
+              "RelativeToolTip": "Slot4\\DBContext\\MyWorldDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:55:49.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gadgets.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\Slot4\\Slot4\\model\\Gadgets.cs",
+              "RelativeDocumentMoniker": "Slot4\\model\\Gadgets.cs",
+              "ToolTip": "D:\\PRN232\\code\\Slot4\\Slot4\\model\\Gadgets.cs",
+              "RelativeToolTip": "Slot4\\model\\Gadgets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:52:46.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\code\\Slot4\\Slot4\\appsettings.json",
+              "RelativeDocumentMoniker": "Slot4\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\code\\Slot4\\Slot4\\appsettings.json",
+              "RelativeToolTip": "Slot4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T03:50:51.508Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
