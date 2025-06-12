@@ -1,0 +1,66 @@
+﻿@model List<DataAccessObjects.DTO.NewsDto>
+@{
+    ViewData["Title"] = "Danh sách bài viết";
+    var currentPage = ViewBag.CurrentPage ?? 1;
+    var totalPages = ViewBag.TotalPages ?? 1;
+    var keyword = ViewBag.Keyword as string;
+}
+
+<h2>Danh sách bài viết</h2>
+
+<form method="get">
+    <input type="text" name="keyword" value="@keyword" placeholder="Tìm kiếm..." />
+    <button type="submit">Tìm</button>
+</form>
+
+<a href="/Staff/CreateNews">Tạo bài viết mới</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Ngày tạo</th>
+            <th>Danh mục</th>
+            <th>Thẻ</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NewsTitle</td>
+                <td>@item.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                <td>@item.CategoryName</td>
+                <td>@string.Join(", ", item.Tags)</td>
+                <td>@(item.NewsStatus == true ? "Hiện" : "Ẩn")</td>
+                <td>
+                    <a href="/Staff/UpdateNews?id=@item.NewsArticleId">Sửa</a> |
+                    <form asp-action="DeleteNews" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@item.NewsArticleId" />
+                        <button type="submit" onclick="return confirm('Xác nhận xóa?')">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (totalPages > 1)
+{
+    <div>
+        Trang:
+        @for (int i = 1; i <= totalPages; i++)
+        {
+            if (i == (int)currentPage)
+            {
+                <strong>@i</strong>
+            }
+            else
+            {
+                <a href="?keyword=@keyword&page=@i">@i</a>
+            }
+        }
+    </div>
+}

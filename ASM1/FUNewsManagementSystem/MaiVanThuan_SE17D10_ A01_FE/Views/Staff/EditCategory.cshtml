@@ -1,0 +1,30 @@
+﻿@model DataAccessObjects.DTO.CategoryDto
+@{
+    ViewData["Title"] = "Chỉnh sửa chuyên mục";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chỉnh sửa chuyên mục</h2>
+
+<form asp-action="EditCategory" method="post">
+    <input type="hidden" asp-for="CategoryId" />
+
+    <label>Tên chuyên mục:</label>
+    <input asp-for="CategoryName" />
+    <span asp-validation-for="CategoryName" style="color:red"></span>
+    <br />
+
+    <label>Mô tả:</label>
+    <textarea asp-for="CategoryDesciption"></textarea>
+    <span asp-validation-for="CategoryDesciption" style="color:red"></span>
+    <br />
+
+    <label>Hiển thị:</label>
+    <input type="checkbox" name="IsActive" @(Model?.IsActive == true ? "checked" : "") />
+
+    <br />
+
+    <button type="submit">Lưu</button>
+    <a href="/Staff/CategoryList">Quay lại</a>
+</form>
+    

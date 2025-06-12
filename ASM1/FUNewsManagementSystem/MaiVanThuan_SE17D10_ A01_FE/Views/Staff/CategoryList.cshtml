@@ -1,0 +1,122 @@
+﻿@model List<DataAccessObjects.DTO.CategoryDto>
+
+@{
+    ViewData["Title"] = "Danh sách chuyên mục";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .category-container {
+        max-width: 1200px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .create-category-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        margin-bottom: 20px;
+    }
+
+        .create-category-btn:hover {
+            background-color: #218838;
+        }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    td a {
+        color: #007bff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+        td a:hover {
+            text-decoration: underline;
+        }
+
+    .delete-btn {
+        padding: 8px 15px;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+</style>
+
+<div class="category-container">
+    <h2>Danh sách chuyên mục</h2>
+
+    <p><a href="/Staff/CreateCategory" class="create-category-btn">+ Thêm chuyên mục mới</a></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tên</th>
+                <th>Mô tả</th>
+                <th>Trạng thái</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.CategoryName</td>
+                    <td>@c.CategoryDesciption</td>
+                    <td>@(c.IsActive == true ? "Hoạt động" : "Ẩn")</td>
+                    <td>
+                        <a href="/Staff/EditCategory/@c.CategoryId">Sửa</a> |
+                        <form asp-action="DeleteCategory" asp-controller="Staff" asp-route-id="@c.CategoryId" method="post" style="display:inline;" onsubmit="return confirm('Xác nhận xóa?');">
+                            <button type="submit" class="delete-btn">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,27 @@
+﻿@model DataAccessObjects.DTO.CategoryDto
+@{
+    ViewData["Title"] = "Tạo chuyên mục mới";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tạo chuyên mục mới</h2>
+
+<form asp-action="CreateCategory" method="post">
+    <label>Tên chuyên mục:</label>
+    <input asp-for="CategoryName" />
+    <span asp-validation-for="CategoryName" style="color:red"></span>
+    <br />
+
+    <label>Mô tả:</label>
+    <textarea asp-for="CategoryDesciption"></textarea>
+    <span asp-validation-for="CategoryDesciption" style="color:red"></span>
+    <br />
+
+    <label>Hiển thị:</label>
+    <input type="checkbox" name="IsActive" @(Model?.IsActive == true ? "checked" : "") />
+
+    <br />
+
+    <button type="submit">Tạo</button>
+    <a href="/Staff/CategoryList">Quay lại</a>
+</form>

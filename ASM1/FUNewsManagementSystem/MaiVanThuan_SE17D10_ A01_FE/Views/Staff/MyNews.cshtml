@@ -1,0 +1,136 @@
+﻿@model List<DataAccessObjects.DTO.NewsDto>
+@{
+    ViewData["Title"] = "My News";
+    Layout = "~/Views/Shared/_Layout.cshtml";}
+
+<h2>Bài viết của tôi</h2>
+
+<style>
+    .my-news-container {
+        max-width: 1200px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .error-message {
+        color: #721c24;
+        background-color: #f8d7da;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    td a {
+        color: #007bff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    td a:hover {
+        text-decoration: underline;
+    }
+
+    .delete-btn {
+        padding: 8px 15px;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .delete-btn:hover {
+        background-color: #c82333;
+    }
+
+    .create-news-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+    .create-news-btn:hover {
+        background-color: #218838;
+    }
+</style>
+
+<div class="my-news-container">
+    @if (TempData["Error"] != null)
+    {
+        <div style="color: red;">@TempData["Error"]</div>
+    }
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tiêu đề</th>
+                <th>Ngày tạo</th>
+                <th>Trạng thái</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var news in Model)
+            {
+                <tr>
+                    <td>@news.NewsTitle</td>
+                    <td>@news.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@(news.NewsStatus == true ? "Hiển thị" : "Ẩn")</td>
+                    <td>
+                        <a href="/Staff/EditNews?id=@news.NewsArticleId">Sửa</a> |
+                        <form method="post" asp-action="DeleteNews" style="display:inline">
+                            <input type="hidden" name="id" value="@news.NewsArticleId" />
+                            <input type="hidden" name="staffId" value="@Context.Session.GetInt32("id")" />
+                            <button type="submit" class="delete-btn">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="/Staff/CreateNews" class="create-news-btn">+ Tạo bài viết mới</a>
+</div>

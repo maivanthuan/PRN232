@@ -1,0 +1,21 @@
+﻿@model List<MaiVanThuan_SE17D10__A01_FE.Controllers.NewsViewModel>
+@{
+}
+
+<h2>Danh sách tin tức</h2>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var news in Model)
+    {
+        <div style="border:1px solid #ccc; padding:10px; margin-bottom:10px">
+            <h3>@news.NewsTitle</h3>
+            <p>@news.NewsContent</p>
+            <small><i>By @news.AuthorName on @news.CreatedDate.ToString("dd/MM/yyyy")</i></small>
+        </div>
+    }
+}
+else
+{
+    <p>Không có tin tức nào.</p>
+}

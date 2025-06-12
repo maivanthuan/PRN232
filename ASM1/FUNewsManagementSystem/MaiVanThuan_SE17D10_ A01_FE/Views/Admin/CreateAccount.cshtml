@@ -1,0 +1,114 @@
+﻿@model MaiVanThuan_SE17D10__A01_FE.Controllers.AccountViewModel
+
+@{
+    ViewData["Title"] = "Tạo tài khoản";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .create-account-container {
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+        }
+
+    select {
+        appearance: none;
+        background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='5' viewBox='0 0 10 5'><path fill='%23555' d='M0 0h10L5 5z'/></svg>") no-repeat right 10px center;
+        background-size: 10px;
+    }
+
+    .validation-message {
+        color: #dc3545;
+        font-size: 14px;
+        margin-top: 5px;
+        display: block;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        button:hover {
+            background-color: #218838;
+        }
+</style>
+
+<div class="create-account-container">
+    <h2>Tạo tài khoản mới</h2>
+
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="AccountName">Tên:</label>
+            <input asp-for="AccountName" />
+            <span asp-validation-for="AccountName" class="validation-message"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="AccountEmail">Email:</label>
+            <input asp-for="AccountEmail" />
+            <span asp-validation-for="AccountEmail" class="validation-message"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="AccountPassword">Mật khẩu:</label>
+            <input asp-for="AccountPassword" type="password" />
+            <span asp-validation-for="AccountPassword" class="validation-message"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="AccountRole">Role:</label>
+            <select asp-for="AccountRole">
+                <option value="1">Staff</option>
+                <option value="2">Lecturer</option>
+            </select>
+        </div>
+        <button type="submit">Tạo</button>
+    </form>
+</div>

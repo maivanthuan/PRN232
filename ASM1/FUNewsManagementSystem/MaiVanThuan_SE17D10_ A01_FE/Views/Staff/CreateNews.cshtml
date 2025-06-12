@@ -1,0 +1,36 @@
+﻿@model DataAccessObjects.DTO.NewsCreateDto
+@{
+    ViewData["Title"] = "Create News";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tạo bài viết mới</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div style="color:red;">@TempData["Error"]</div>
+}
+
+<form method="post">
+    <div>
+        <label>Tiêu đề</label>
+        <input asp-for="NewsTitle" />
+    </div>
+    <div>
+        <label>Headline</label>
+        <input asp-for="Headline" />
+    </div>
+    <div>
+        <label>Nội dung</label>
+        <textarea asp-for="NewsContent"></textarea>
+    </div>
+    <div>
+        <label>Chuyên mục ID</label>
+        <input asp-for="CategoryId" />
+    </div>
+    <div>
+        <label>Tag IDs (phân cách bởi dấu phẩy)</label>
+        <input name="TagIds" value="@string.Join(",", Model.TagIds)" />
+    </div>
+    <button type="submit">Tạo</button>
+</form>
