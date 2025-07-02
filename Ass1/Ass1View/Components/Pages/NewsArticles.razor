@@ -1,0 +1,69 @@
+﻿@page "/newsarticles"
+@using Ass1View.Service
+@inject ApiService ApiService
+
+<h3>Quản lý Bài viết</h3>
+
+@if (loading)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Article ID</th>
+                <th>Title</th>
+                <th>Headline</th>
+                <th>Created Date</th>
+                <th>Content</th>
+                <th>Source</th>
+                <th>Category ID</th>
+                <th>Status</th>
+                <th>Created By ID</th>
+                <th>Updated By ID</th>
+                <th>Modified Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var article in newsArticles)
+            {
+                <tr>
+                    <td>@article.NewsArticleId</td>
+                    <td>@article.NewsTitle</td>
+                    <td>@article.Headline</td>
+                    <td>@article.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@article.NewsContent</td>
+                    <td>@article.NewsSource</td>
+                    <td>@article.CategoryId</td>
+                    <td>@article.NewsStatus</td>
+                    <td>@article.CreatedById</td>
+                    <td>@article.UpdatedById</td>
+                    <td>@article.ModifiedDate?.ToString("dd/MM/yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<NewsArticle> newsArticles = new();
+    private bool loading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            newsArticles = await ApiService.GetNewsArticlesAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+}

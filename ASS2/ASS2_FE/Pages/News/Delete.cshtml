@@ -1,0 +1,50 @@
+﻿@page
+@model ASS2_FE.Pages.News.CreateModel
+@{
+    ViewData["Title"] = "Tạo bài viết mới";
+}
+
+<h3 class="mb-4">📝 Tạo bài viết mới</h3>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Item.NewsTitle" class="form-label">Tiêu đề</label>
+        <input asp-for="Item.NewsTitle" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Item.Headline" class="form-label">Tóm tắt</label>
+        <textarea asp-for="Item.Headline" class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Item.NewsContent" class="form-label">Nội dung</label>
+        <textarea asp-for="Item.NewsContent" class="form-control" rows="6"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Item.CategoryId" class="form-label">Chuyên mục</label>
+        <select asp-for="Item.CategoryId" asp-items="Model.CategoryOptions" class="form-select">
+            <option value="">-- Chọn chuyên mục --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tags</label><br />
+        @foreach (var tag in Model.AllTags)
+        {
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="SelectedTags" value="@tag.TagId" />
+                <label class="form-check-label">@tag.TagName</label>
+            </div>
+        }
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="Item.NewsStatus" class="form-check-input" />
+        <label asp-for="Item.NewsStatus" class="form-check-label">Công khai (Đã đăng)</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">💾 Tạo mới</button>
+    <a href="/News/All" class="btn btn-secondary">Huỷ</a>
+</form>

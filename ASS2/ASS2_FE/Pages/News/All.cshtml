@@ -1,0 +1,92 @@
+﻿@page
+@model ASS2_FE.Pages.News.AllModel
+@{
+    ViewData["Title"] = "Tất cả bài viết";
+}
+
+<h2 class="mb-3">📚 Danh sách tất cả bài viết</h2>
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <a href="/News/Create" class="btn btn-success">
+        ➕ Tạo bài viết
+    </a>
+</div>
+
+<table class="table table-striped table-bordered align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Tiêu đề</th>
+            <th>Chuyên mục</th>
+            <th>Người viết</th>
+            <th>Ngày tạo</th>
+            @if (HttpContext.Session.GetString("role") == "1" || HttpContext.Session.GetString("role") == "Admin")
+            {
+                <th>Trạng thái</th>
+            }
+            
+            <th>Tags</th>
+            @if (HttpContext.Session.GetString("role") == "1" || HttpContext.Session.GetString("role") == "Admin")
+            {
+                <th>Thao tác</th>
+            }
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model.NewsList != null && Model.NewsList.Any())
+        {
+            foreach (var news in Model.NewsList)
+            {
+                <tr>
+
+                    <td>@news.NewsArticleId</td>
+                    <td>@news.NewsTitle</td>
+                    <td>@news.Category?.CategoryName</td>
+                    <td>@news.CreatedBy?.AccountName</td>
+                    <td>@news.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        @if (HttpContext.Session.GetString("role") == "Staff" || HttpContext.Session.GetString("role") == "Admin")
+                        {
+                            @if (news.NewsStatus == true)
+                            {
+                                <span class="badge bg-success">Đã đăng</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Nháp</span>
+                            }
+                    }
+                        
+                    </td>
+                    <td>
+                        @if (news.Tags?.Values != null)
+                        {
+                            foreach (var tag in news.Tags.Values)
+                            {
+                                <span class="badge bg-info me-1">@tag.TagName</span>
+                            }
+                        }
+
+                        else
+                        {
+                            <span class="text-muted fst-italic">Không có</span>
+                        }
+                    </td>
+                    @if (HttpContext.Session.GetString("role") == "Staff" || HttpContext.Session.GetString("role") == "Admin")
+                    {
+                        <td>
+                            <a class="btn btn-sm btn-warning" href="/News/Edit?id=@news.NewsArticleId">✏️ Sửa</a>
+                            <a class="btn btn-sm btn-danger" href="/News/Delete/@news.NewsArticleId">🗑️ Xoá</a>
+
+                        </td>
+                    }
+
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="6" class="text-center text-muted">Không có bài viết nào.</td></tr>
+        }
+    </tbody>
+</table>

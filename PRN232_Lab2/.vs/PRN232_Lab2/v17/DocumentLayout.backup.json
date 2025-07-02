@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN232\\code\\PRN232_Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|d:\\prn232\\code\\prn232_lab2\\prn232_lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|solutionrelative:prn232_lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|d:\\prn232\\code\\prn232_lab2\\prn232_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|solutionrelative:prn232_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|d:\\prn232\\code\\prn232_lab2\\prn232_lab2\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|solutionrelative:prn232_lab2\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|d:\\prn232\\code\\prn232_lab2\\service\\isystemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|solutionrelative:service\\isystemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|d:\\prn232\\code\\prn232_lab2\\prn232_lab2\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|solutionrelative:prn232_lab2\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|d:\\prn232\\code\\prn232_lab2\\service\\cosmeticinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|solutionrelative:service\\cosmeticinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|d:\\prn232\\code\\prn232_lab2\\service\\icosmeticinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|solutionrelative:service\\icosmeticinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF45AA9-A43D-4E05-BF68-699BDD555F4E}|DataAccessObject\\DataAccessObject.csproj|d:\\prn232\\code\\prn232_lab2\\dataaccessobject\\cosmeticinformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF45AA9-A43D-4E05-BF68-699BDD555F4E}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\cosmeticinformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|d:\\prn232\\code\\prn232_lab2\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF45AA9-A43D-4E05-BF68-699BDD555F4E}|DataAccessObject\\DataAccessObject.csproj|d:\\prn232\\code\\prn232_lab2\\dataaccessobject\\systemaccountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF45AA9-A43D-4E05-BF68-699BDD555F4E}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\systemaccountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF45AA9-A43D-4E05-BF68-699BDD555F4E}|DataAccessObject\\DataAccessObject.csproj|d:\\prn232\\code\\prn232_lab2\\dataaccessobject\\cosmeticdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF45AA9-A43D-4E05-BF68-699BDD555F4E}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\cosmeticdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A0AAB1-1583-4452-A841-FF93D48622BF}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\prn232_lab2\\businessobject\\cosmeticcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A0AAB1-1583-4452-A841-FF93D48622BF}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\cosmeticcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A0AAB1-1583-4452-A841-FF93D48622BF}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\prn232_lab2\\businessobject\\cosmeticinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A0AAB1-1583-4452-A841-FF93D48622BF}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\cosmeticinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A0AAB1-1583-4452-A841-FF93D48622BF}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\prn232_lab2\\businessobject\\businessobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68A0AAB1-1583-4452-A841-FF93D48622BF}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\businessobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|d:\\prn232\\code\\prn232_lab2\\prn232_lab2\\controllers\\cosmeticinformationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E69EC2-7D47-4D27-A39B-4D39C95CEBB1}|PRN232_Lab2\\PRN232_Lab2.csproj|solutionrelative:prn232_lab2\\controllers\\cosmeticinformationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|d:\\prn232\\code\\prn232_lab2\\service\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|solutionrelative:service\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|d:\\prn232\\code\\prn232_lab2\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EEDD0D4D-0A28-4FF4-ADCF-83C0C4EC5C97}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|d:\\prn232\\code\\prn232_lab2\\repository\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|solutionrelative:repository\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|d:\\prn232\\code\\prn232_lab2\\repository\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|solutionrelative:repository\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|d:\\prn232\\code\\prn232_lab2\\repository\\cosmeticinformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|solutionrelative:repository\\cosmeticinformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A0AAB1-1583-4452-A841-FF93D48622BF}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\prn232_lab2\\businessobject\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A0AAB1-1583-4452-A841-FF93D48622BF}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|d:\\prn232\\code\\prn232_lab2\\repository\\icosmeticinformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6229BF-5209-4A1D-93ED-B11F9AE798EF}|Repository\\Repository.csproj|solutionrelative:repository\\icosmeticinformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF45AA9-A43D-4E05-BF68-699BDD555F4E}|DataAccessObject\\DataAccessObject.csproj|d:\\prn232\\code\\prn232_lab2\\dataaccessobject\\dataaccessobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BBF45AA9-A43D-4E05-BF68-699BDD555F4E}|DataAccessObject\\DataAccessObject.csproj|solutionrelative:dataaccessobject\\dataaccessobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 357,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SystemAccountsController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\Controllers\\SystemAccountsController.cs",
+              "RelativeDocumentMoniker": "PRN232_Lab2\\Controllers\\SystemAccountsController.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\Controllers\\SystemAccountsController.cs",
+              "RelativeToolTip": "PRN232_Lab2\\Controllers\\SystemAccountsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA3wDwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T01:22:55.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Repository.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T18:24:26.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CosmeticInformationDAO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\DataAccessObject\\CosmeticInformationDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\CosmeticInformationDAO.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\DataAccessObject\\CosmeticInformationDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\CosmeticInformationDAO.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAuwIEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T02:06:03.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICosmeticInformationService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\ICosmeticInformationService.cs",
+              "RelativeDocumentMoniker": "Service\\ICosmeticInformationService.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\ICosmeticInformationService.cs",
+              "RelativeToolTip": "Service\\ICosmeticInformationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:55:39.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CosmeticInformationService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\CosmeticInformationService.cs",
+              "RelativeDocumentMoniker": "Service\\CosmeticInformationService.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\CosmeticInformationService.cs",
+              "RelativeToolTip": "Service\\CosmeticInformationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:58:38.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "PRN232_Lab2\\AccountDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\AccountDTO.cs",
+              "RelativeToolTip": "PRN232_Lab2\\AccountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T01:00:00.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN232_Lab2\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\appsettings.json",
+              "RelativeToolTip": "PRN232_Lab2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-27T01:00:14.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "PRN232_Lab2\\Program.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\Program.cs",
+              "RelativeToolTip": "PRN232_Lab2\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwHQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T01:17:59.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SystemAccountDAO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\DataAccessObject\\SystemAccountDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\SystemAccountDAO.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\DataAccessObject\\SystemAccountDAO.cs",
+              "RelativeToolTip": "DataAccessObject\\SystemAccountDAO.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T02:05:40.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISystemAccountService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\ISystemAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\ISystemAccountService.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\ISystemAccountService.cs",
+              "RelativeToolTip": "Service\\ISystemAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:56:43.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CosmeticDbContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\DataAccessObject\\CosmeticDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessObject\\CosmeticDbContext.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\DataAccessObject\\CosmeticDbContext.cs",
+              "RelativeToolTip": "DataAccessObject\\CosmeticDbContext.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T02:03:29.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CosmeticInformation.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\BusinessObject\\CosmeticInformation.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\CosmeticInformation.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\BusinessObject\\CosmeticInformation.cs",
+              "RelativeToolTip": "BusinessObject\\CosmeticInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:40:07.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CosmeticCategory.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\BusinessObject\\CosmeticCategory.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\CosmeticCategory.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\BusinessObject\\CosmeticCategory.cs",
+              "RelativeToolTip": "BusinessObject\\CosmeticCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:40:25.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BusinessObject.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\BusinessObject\\BusinessObject.csproj",
+              "RelativeDocumentMoniker": "BusinessObject\\BusinessObject.csproj",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\BusinessObject\\BusinessObject.csproj",
+              "RelativeToolTip": "BusinessObject\\BusinessObject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T18:27:54.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SystemAccountService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\SystemAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\SystemAccountService.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\SystemAccountService.cs",
+              "RelativeToolTip": "Service\\SystemAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:01:40.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CosmeticInformationsController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\Controllers\\CosmeticInformationsController.cs",
+              "RelativeDocumentMoniker": "PRN232_Lab2\\Controllers\\CosmeticInformationsController.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\PRN232_Lab2\\Controllers\\CosmeticInformationsController.cs",
+              "RelativeToolTip": "PRN232_Lab2\\Controllers\\CosmeticInformationsController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwEkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T01:23:35.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Service\\Service.csproj",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Service\\Service.csproj",
+              "RelativeToolTip": "Service\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T18:55:25.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SystemAccountRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\SystemAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SystemAccountRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\SystemAccountRepository.cs",
+              "RelativeToolTip": "Repository\\SystemAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:54:35.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CosmeticInformationRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\CosmeticInformationRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CosmeticInformationRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\CosmeticInformationRepository.cs",
+              "RelativeToolTip": "Repository\\CosmeticInformationRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:58:18.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISystemAccountRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\ISystemAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ISystemAccountRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\ISystemAccountRepository.cs",
+              "RelativeToolTip": "Repository\\ISystemAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:26:18.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SystemAccount.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\BusinessObject\\SystemAccount.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\SystemAccount.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\BusinessObject\\SystemAccount.cs",
+              "RelativeToolTip": "BusinessObject\\SystemAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:40:23.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICosmeticInformationRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\ICosmeticInformationRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ICosmeticInformationRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\Repository\\ICosmeticInformationRepository.cs",
+              "RelativeToolTip": "Repository\\ICosmeticInformationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:24:52.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataAccessObject.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\PRN232_Lab2\\DataAccessObject\\DataAccessObject.csproj",
+              "RelativeDocumentMoniker": "DataAccessObject\\DataAccessObject.csproj",
+              "ToolTip": "D:\\PRN232\\code\\PRN232_Lab2\\DataAccessObject\\DataAccessObject.csproj",
+              "RelativeToolTip": "DataAccessObject\\DataAccessObject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T02:03:16.799Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 43,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

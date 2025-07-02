@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaiVanThuan_SE17D10_ A01_FE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aa5520620d27ed4674c3f0c2f9e29de1f85d65f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5239d3728e6fa7d8119cb4e0e4696d04e2c7a11")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaiVanThuan_SE17D10_ A01_FE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaiVanThuan_SE17D10_ A01_FE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

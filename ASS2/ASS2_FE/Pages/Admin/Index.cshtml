@@ -1,0 +1,54 @@
+﻿@page
+@model ASS2_FE.Pages.Admin.IndexModel
+@{
+    ViewData["Title"] = "Trang quản trị Admin";
+}
+
+<h2 class="mb-4">📋 Admin Dashboard</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- 📚 Tất cả bài viết -->
+    <div class="col">
+        <div class="card h-100 border-secondary">
+            <div class="card-body">
+                <h5 class="card-title">📚 Tất cả bài viết</h5>
+                <p class="card-text">Xem toàn bộ bài viết từ mọi người dùng.</p>
+                <a href="/News/All" class="btn btn-secondary">Xem bài viết</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🏷️ Tất cả tag -->
+    @* <div class="col">
+        <div class="card h-100 border-danger">
+            <div class="card-body">
+                <h5 class="card-title">🏷️ Tất cả tag</h5>
+                <p class="card-text">Danh sách toàn bộ tag đang được sử dụng.</p>
+                <a href="/Admin/AllTags" class="btn btn-danger">Xem tag</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 📂 Tất cả danh mục -->
+    <div class="col">
+        <div class="card h-100 border-warning">
+            <div class="card-body">
+                <h5 class="card-title">📂 Tất cả danh mục</h5>
+                <p class="card-text">Xem và quản lý toàn bộ chuyên mục bài viết.</p>
+                <a href="/Admin/AllCategories" class="btn btn-warning">Xem danh mục</a>
+            </div>
+        </div>
+    </div> *@
+
+    <!-- 👥 Tất cả tài khoản -->
+    <div class="col">
+        <div class="card h-100 border-dark">
+            <div class="card-body">
+                <h5 class="card-title">👥 Tất cả tài khoản</h5>
+                <p class="card-text">Danh sách toàn bộ người dùng hệ thống.</p>
+                <a href="/Admin/AllAccounts" class="btn btn-dark">Xem tài khoản</a>
+            </div>
+        </div>
+    </div>
+</div>
+

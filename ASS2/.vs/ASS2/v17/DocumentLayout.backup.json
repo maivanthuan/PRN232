@@ -1,0 +1,967 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN232\\code\\ASS2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\news\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\news\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\news\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\news\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\ass2\\businessobject\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\news\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\news\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\admin\\allaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\admin\\allaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\admin\\allaccounts.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\admin\\allaccounts.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\news\\all.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\news\\all.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\admin\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\admin\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\news\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\news\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\news\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\news\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\ass2\\businessobject\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|d:\\prn232\\code\\ass2\\dataaccess\\newsarticledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\newsarticledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\news\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\news\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\ass2\\businessobject\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\ass2\\businessobject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|d:\\prn232\\code\\ass2\\ass2_fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DC5ACA-3550-4F01-AB4D-E7BF635C073C}|ASS2_FE\\ASS2_FE.csproj|solutionrelative:ass2_fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|d:\\prn232\\code\\ass2\\repository\\repository\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|d:\\prn232\\code\\ass2\\repository\\repository\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\controllers\\newsarticlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\controllers\\newsarticlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|d:\\prn232\\code\\ass2\\repository\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\ass2\\businessobject\\models\\adminconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\adminconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\ass2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\ass2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\iservice\\isystemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\iservice\\isystemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\service\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\service\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\service\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\service\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\iservice\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\iservice\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\iservice\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\iservice\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\iservice\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\iservice\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|d:\\prn232\\code\\ass2\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EEDD4E30-6B26-4259-9E0F-8F68121D32AD}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|d:\\prn232\\code\\ass2\\repository\\repository\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|solutionrelative:repository\\repository\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|d:\\prn232\\code\\ass2\\repository\\irepository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|solutionrelative:repository\\irepository\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|d:\\prn232\\code\\ass2\\repository\\irepository\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|solutionrelative:repository\\irepository\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|d:\\prn232\\code\\ass2\\repository\\irepository\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|solutionrelative:repository\\irepository\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|d:\\prn232\\code\\ass2\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A093C5D-3DF7-48A7-B44E-A6201EF5DCD3}|Repository\\Repository.csproj|solutionrelative:repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|d:\\prn232\\code\\ass2\\dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|d:\\prn232\\code\\ass2\\dataaccess\\tagdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\tagdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|d:\\prn232\\code\\ass2\\dataaccess\\systemaccountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\systemaccountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|d:\\prn232\\code\\ass2\\dataaccess\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|d:\\prn232\\code\\ass2\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E827B1E7-CED4-4EF0-9AEF-35901F860F68}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\ass2\\businessobject\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\ass2\\businessobject\\businessobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0CC0408C-D19B-4CFA-BB61-C8EBA5333CFE}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\businessobject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|d:\\prn232\\code\\ass2\\ass2\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49EE2B5-2DE2-484D-BB7A-76925F516486}|ASS2\\ASS2.csproj|solutionrelative:ass2\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\News\\Create.cshtml.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Create.cshtml.cs",
+              "RelativeToolTip": "ASS2_FE\\Pages\\News\\Create.cshtml.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwF8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:52:33.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\News\\Create.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Create.cshtml",
+              "RelativeToolTip": "ASS2_FE\\Pages\\News\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAewCgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T22:52:12.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ASS2\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ASS2\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T16:57:27.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "ASS2\\Controllers\\TagsController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "ASS2\\Controllers\\TagsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T16:58:15.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\Program.cs",
+              "RelativeDocumentMoniker": "ASS2\\Program.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\Program.cs",
+              "RelativeToolTip": "ASS2\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAEwCMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:39:17.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AllAccounts.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Admin\\AllAccounts.cshtml.cs",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\Admin\\AllAccounts.cshtml.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Admin\\AllAccounts.cshtml.cs",
+              "RelativeToolTip": "ASS2_FE\\Pages\\Admin\\AllAccounts.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:07:20.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\appsettings.json",
+              "RelativeDocumentMoniker": "ASS2\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\appsettings.json",
+              "RelativeToolTip": "ASS2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T12:03:47.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\appsettings.json",
+              "RelativeDocumentMoniker": "ASS2_FE\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\appsettings.json",
+              "RelativeToolTip": "ASS2_FE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T19:21:12.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\Login.cshtml.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "ASS2_FE\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:32:53.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\All.cshtml",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\News\\All.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\All.cshtml",
+              "RelativeToolTip": "ASS2_FE\\Pages\\News\\All.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T19:39:10.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewsArticle.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\NewsArticle.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\NewsArticle.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\NewsArticle.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\NewsArticle.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:30:19.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "All.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\All.cshtml.cs",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\News\\All.cshtml.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\All.cshtml.cs",
+              "RelativeToolTip": "ASS2_FE\\Pages\\News\\All.cshtml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:39:28.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Admin\\Index.cshtml",
+              "RelativeToolTip": "ASS2_FE\\Pages\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T19:41:17.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AllAccounts.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Admin\\AllAccounts.cshtml",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\Admin\\AllAccounts.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Admin\\AllAccounts.cshtml",
+              "RelativeToolTip": "ASS2_FE\\Pages\\Admin\\AllAccounts.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T20:06:42.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SystemAccount.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\SystemAccount.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\SystemAccount.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\SystemAccount.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\SystemAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:04:29.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Admin\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\Admin\\Index.cshtml.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Admin\\Index.cshtml.cs",
+              "RelativeToolTip": "ASS2_FE\\Pages\\Admin\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:45:10.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\Login.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Login.cshtml",
+              "RelativeToolTip": "ASS2_FE\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T19:32:08.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\News\\Edit.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Edit.cshtml",
+              "RelativeToolTip": "ASS2_FE\\Pages\\News\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T21:05:20.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\News\\Delete.cshtml.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Delete.cshtml.cs",
+              "RelativeToolTip": "ASS2_FE\\Pages\\News\\Delete.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA5wBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:07:57.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\News\\Edit.cshtml.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Edit.cshtml.cs",
+              "RelativeToolTip": "ASS2_FE\\Pages\\News\\Edit.cshtml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwD4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:05:47.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\News\\Delete.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\News\\Delete.cshtml",
+              "RelativeToolTip": "ASS2_FE\\Pages\\News\\Delete.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T21:07:24.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NewsArticleDAO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\DataAccess\\NewsArticleDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\NewsArticleDAO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\DataAccess\\NewsArticleDAO.cs",
+              "RelativeToolTip": "DataAccess\\NewsArticleDAO.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAywCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T07:59:08.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Program.cs",
+              "RelativeDocumentMoniker": "ASS2_FE\\Program.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Program.cs",
+              "RelativeToolTip": "ASS2_FE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:19:18.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\Category.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\Category.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\Category.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:04:24.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\Tag.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\Tag.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:04:31.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASS2_FE\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2_FE\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASS2_FE\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T20:21:12.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SystemAccountsController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\SystemAccountsController.cs",
+              "RelativeDocumentMoniker": "ASS2\\Controllers\\SystemAccountsController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\SystemAccountsController.cs",
+              "RelativeToolTip": "ASS2\\Controllers\\SystemAccountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:31:07.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Repository\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\CategoryRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Repository\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:39:56.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NewsArticlesController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\NewsArticlesController.cs",
+              "RelativeDocumentMoniker": "ASS2\\Controllers\\NewsArticlesController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\NewsArticlesController.cs",
+              "RelativeToolTip": "ASS2\\Controllers\\NewsArticlesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T16:55:28.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\TokenService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\Service\\TokenService.cs",
+              "RelativeToolTip": "Service\\Service\\TokenService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T13:01:21.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SystemAccountRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Repository\\Repository\\SystemAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\SystemAccountRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Repository\\Repository\\SystemAccountRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\SystemAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:39:39.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Repository\\Repository\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\TagRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Repository\\Repository\\TagRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\TagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:40:04.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\CategoryService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\Service\\CategoryService.cs",
+              "RelativeToolTip": "Service\\Service\\CategoryService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T10:04:24.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ASS2\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ASS2\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T12:55:54.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\Service\\TagService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\TagService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\Service\\TagService.cs",
+              "RelativeToolTip": "Service\\Service\\TagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T10:00:04.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "NewsArticleService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\Service\\NewsArticleService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\NewsArticleService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\Service\\NewsArticleService.cs",
+              "RelativeToolTip": "Service\\Service\\NewsArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T10:05:45.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AdminConfig.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\AdminConfig.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\AdminConfig.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\BusinessObject\\Models\\AdminConfig.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\AdminConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T12:21:10.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SystemAccountService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\Service\\SystemAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\Service\\SystemAccountService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\Service\\SystemAccountService.cs",
+              "RelativeToolTip": "Service\\Service\\SystemAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T10:02:27.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ASS2.http",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\ASS2.http",
+              "RelativeDocumentMoniker": "ASS2\\ASS2.http",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\ASS2.http",
+              "RelativeToolTip": "ASS2\\ASS2.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-30T12:05:55.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\IService\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Service\\IService\\ITokenService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\IService\\ITokenService.cs",
+              "RelativeToolTip": "Service\\IService\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T13:00:58.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ISystemAccountService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\IService\\ISystemAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\IService\\ISystemAccountService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\IService\\ISystemAccountService.cs",
+              "RelativeToolTip": "Service\\IService\\ISystemAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:57:43.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\IService\\ITagService.cs",
+              "RelativeDocumentMoniker": "Service\\IService\\ITagService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\IService\\ITagService.cs",
+              "RelativeToolTip": "Service\\IService\\ITagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:58:37.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "INewsArticleService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\IService\\INewsArticleService.cs",
+              "RelativeDocumentMoniker": "Service\\IService\\INewsArticleService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\IService\\INewsArticleService.cs",
+              "RelativeToolTip": "Service\\IService\\INewsArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:58:19.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Service\\IService\\ICategoryService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\IService\\ICategoryService.cs",
+              "RelativeToolTip": "Service\\IService\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:58:29.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Service\\Service.csproj",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Service\\Service.csproj",
+              "RelativeToolTip": "Service\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T15:56:04.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "NewsArticleRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Repository\\Repository\\NewsArticleRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository\\NewsArticleRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Repository\\Repository\\NewsArticleRepository.cs",
+              "RelativeToolTip": "Repository\\Repository\\NewsArticleRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:39:47.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Repository\\IRepository\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepository\\ITagRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Repository\\IRepository\\ITagRepository.cs",
+              "RelativeToolTip": "Repository\\IRepository\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:39:12.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ISystemAccountRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Repository\\IRepository\\ISystemAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepository\\ISystemAccountRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Repository\\IRepository\\ISystemAccountRepository.cs",
+              "RelativeToolTip": "Repository\\IRepository\\ISystemAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:38:14.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "INewsArticleRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Repository\\IRepository\\INewsArticleRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepository\\INewsArticleRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Repository\\IRepository\\INewsArticleRepository.cs",
+              "RelativeToolTip": "Repository\\IRepository\\INewsArticleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:38:58.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repository\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:30:18.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\DataAccess\\CategoryDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\CategoryDAO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\DataAccess\\CategoryDAO.cs",
+              "RelativeToolTip": "DataAccess\\CategoryDAO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:23:30.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "TagDAO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\DataAccess\\TagDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\TagDAO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\DataAccess\\TagDAO.cs",
+              "RelativeToolTip": "DataAccess\\TagDAO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:24:57.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SystemAccountDAO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\DataAccess\\SystemAccountDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\SystemAccountDAO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\DataAccess\\SystemAccountDAO.cs",
+              "RelativeToolTip": "DataAccess\\SystemAccountDAO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:21:01.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FunewsManagementContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\DataAccess\\FunewsManagementContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\FunewsManagementContext.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\DataAccess\\FunewsManagementContext.cs",
+              "RelativeToolTip": "DataAccess\\FunewsManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:02:57.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DataAccess.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "DataAccess\\DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T12:07:34.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\BusinessObject\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTO\\LoginDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\BusinessObject\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T12:59:59.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "BusinessObject.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\BusinessObject\\BusinessObject.csproj",
+              "RelativeDocumentMoniker": "BusinessObject\\BusinessObject.csproj",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\BusinessObject\\BusinessObject.csproj",
+              "RelativeToolTip": "BusinessObject\\BusinessObject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T12:20:59.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ASS2\\ASS2\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ASS2\\WeatherForecast.cs",
+              "ToolTip": "D:\\PRN232\\code\\ASS2\\ASS2\\WeatherForecast.cs",
+              "RelativeToolTip": "ASS2\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:39:23.187Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1308,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

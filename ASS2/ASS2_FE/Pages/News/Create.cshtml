@@ -1,0 +1,55 @@
+﻿@page
+@model ASS2_FE.Pages.News.CreateModel
+@{
+    ViewData["Title"] = "Tạo bài viết mới";
+}
+
+<h3 class="mb-3">📝 Tạo bài viết</h3>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Item.NewsTitle" class="form-label"></label>
+        <input asp-for="Item.NewsTitle" class="form-control" />
+        <span asp-validation-for="Item.NewsTitle" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Item.Headline" class="form-label"></label>
+        <textarea asp-for="Item.Headline" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Item.Headline" class="text-danger"></span>
+    </div>
+
+    <div class="form-check mb-3">
+        <input type="checkbox" asp-for="Item.NewsStatus" class="form-check-input" />
+        <label class="form-check-label">Đã đăng</label>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Item.CategoryId" class="form-label">Chuyên mục</label>
+        <select asp-for="Item.CategoryId"
+                asp-items="Model.CategoryOptions"
+                class="form-select">
+            <option value="">-- Chọn chuyên mục --</option>
+        </select>
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label">Tags</label>
+        <select asp-for="SelectedTags"
+                asp-items="@(new MultiSelectList(Model.AllTags, "TagId", "TagName"))"
+                class="form-select" multiple>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Item.NewsContent" class="form-label">Nội dung</label>
+        <textarea asp-for="Item.NewsContent" rows="10" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">💾 Tạo mới</button>
+    <a href="/News/All" class="btn btn-secondary">Huỷ</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

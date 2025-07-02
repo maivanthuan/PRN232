@@ -1,0 +1,28 @@
+﻿@page "{id?}"
+@model ASS2_FE.Pages.News.EditModel
+@{
+    ViewData["Title"] = "Sửa bài viết";
+}
+
+<h2 class="mb-4">✏️ Sửa bài viết</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Tiêu đề</label>
+        <input asp-for="Item.NewsTitle" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Tóm tắt</label>
+        <input asp-for="Item.Headline" class="form-control" />
+    </div>
+    <div class="form-check mb-3">
+        <input type="checkbox"
+               class="form-check-input"
+               name="Item.NewsStatus"
+               @(Model.Item.NewsStatus == true ? "checked" : "") />
+        <label class="form-check-label">Đã đăng</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">💾 Lưu thay đổi</button>
+    <a href="/News/All" class="btn btn-secondary">⬅️ Quay lại</a>
+</form>

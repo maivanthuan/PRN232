@@ -1,0 +1,43 @@
+﻿@page
+@model ASS2_FE.Pages.Admin.AllAccountsModel
+@{
+    ViewData["Title"] = "Tất cả tài khoản";
+}
+
+<h2 class="mb-3">👥 Danh sách tất cả tài khoản</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Email</th>
+            <th>Họ tên</th>
+            <th>Vai trò</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Accounts != null && Model.Accounts.Any())
+        {
+            foreach (var acc in Model.Accounts)
+            {
+                <tr>
+                    <td>@acc.AccountEmail</td>
+                    <td>@acc.AccountName</td>
+                    <td>
+                        @(
+                        acc.AccountRole == 1 ? "Staff" :
+                        acc.AccountRole == 2 ? "Lecu" :
+                        "Không xác định"
+                         )
+                    </td>
+
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="4">Không có tài khoản nào.</td></tr>
+        }
+    </tbody>
+</table>
+
