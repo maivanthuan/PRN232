@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ProjectPRN232\\ProjectPRN232.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FE\\FE.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

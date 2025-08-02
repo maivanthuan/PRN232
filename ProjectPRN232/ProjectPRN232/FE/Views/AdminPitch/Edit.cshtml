@@ -1,0 +1,59 @@
+﻿@model BusinessObject.DTOs.PitchUpdateDTO
+@{
+    ViewData["Title"] = "Chỉnh sửa sân bóng";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4>@ViewData["Title"]: @Model.PitchId</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <input type="hidden" asp-for="PitchId" />
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Status" class="form-label"></label>
+                                <input asp-for="Status" class="form-control" />
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Price" class="form-label"></label>
+                                <input asp-for="Price" class="form-control" />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="TimeEnd" class="form-label"></label>
+                                <input asp-for="TimeEnd" type="datetime-local" class="form-control" />
+                                <span asp-validation-for="TimeEnd" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="ImageFile" class="form-label">Tải ảnh mới (tùy chọn)</label>
+                                <input asp-for="ImageFile" type="file" class="form-control" />
+                                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.Image))
+                        {
+                            <div class="mb-3">
+                                <label class="form-label">Ảnh hiện tại:</label>
+                                <div>
+                                    <img src="@Model.Image" alt="Current Pitch Image" class="img-thumbnail" style="width: 150px; height: auto;" />
+                                </div>
+                            </div>
+                        }
+
+                        <div class="d-flex gap-2 mt-4">
+                            <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                            <a asp-action="Index" class="btn btn-secondary">Hủy bỏ</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

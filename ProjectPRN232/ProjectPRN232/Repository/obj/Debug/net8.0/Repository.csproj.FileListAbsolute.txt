@@ -1,0 +1,54 @@
+D:\PRN232\code\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\PRN232\code\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.dll
+D:\PRN232\code\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.pdb
+D:\PRN232\code\ProjectPRN232\Repository\bin\Debug\net8.0\BusinessObject.dll
+D:\PRN232\code\ProjectPRN232\Repository\bin\Debug\net8.0\DataAccess.dll
+D:\PRN232\code\ProjectPRN232\Repository\bin\Debug\net8.0\BusinessObject.pdb
+D:\PRN232\code\ProjectPRN232\Repository\bin\Debug\net8.0\DataAccess.pdb
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.dll
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.pdb
+D:\PRN232\code\ProjectPRN232\Repository\obj\Debug\net8.0\ref\Repository.dll
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.dll
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.pdb
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\bin\Debug\net8.0\BusinessObject.dll
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\bin\Debug\net8.0\DataAccess.dll
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\bin\Debug\net8.0\BusinessObject.pdb
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\bin\Debug\net8.0\DataAccess.pdb
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.dll
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.pdb
+D:\FU_KI8\PRN232\ProjectPRN232\Repository\obj\Debug\net8.0\ref\Repository.dll
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.dll
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\bin\Debug\net8.0\Repository.pdb
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\bin\Debug\net8.0\BusinessObject.dll
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\bin\Debug\net8.0\DataAccess.dll
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\bin\Debug\net8.0\BusinessObject.pdb
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\bin\Debug\net8.0\DataAccess.pdb
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.dll
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\Repository.pdb
+D:\PRN232\code\ProjectPRN232 (2)\ProjectPRN232\Repository\obj\Debug\net8.0\ref\Repository.dll

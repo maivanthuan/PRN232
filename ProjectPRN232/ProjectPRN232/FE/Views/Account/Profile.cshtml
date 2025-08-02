@@ -1,0 +1,180 @@
+﻿@model AccountDTO
+
+@{
+    ViewData["Title"] = "Thông tin cá nhân";
+    var profile = Model; // Model giờ là AccountDTO trực tiếp
+}
+
+<style>
+    .profile-card {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 30px;
+        margin-top: 30px;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 3px solid #007bff;
+    }
+
+    .profile-detail label {
+        font-weight: bold;
+        color: #555;
+    }
+
+    .profile-detail p {
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+
+    .alert-custom {
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 1.1em;
+    }
+
+    .alert-success-custom {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+
+    .alert-danger-custom {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+    }
+</style>
+
+<div class="container">
+    <h2 class="text-center my-4">Thông tin cá nhân</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-custom">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-custom">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @* Loại bỏ ModelState validation summary nếu không còn form submit *@
+    @* @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger alert-custom">
+            <ul class="mb-0">
+                @foreach (var modelState in ViewData.ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                }
+            </ul>
+        </div>
+    } *@
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="profile-card text-center">
+                @if (!string.IsNullOrEmpty(profile.Avata))
+                {
+                    <img src="@profile.Avata" alt="Ảnh đại diện" class="profile-img img-thumbnail">
+                }
+                else
+                {
+                    <img src="~/img/avt.jpg" alt="Ảnh đại diện mặc định" class="profile-img img-thumbnail">
+                }
+
+                <h3>@profile.UserName</h3>
+
+                <div class="text-left mt-4 profile-detail">
+                    <div class="mb-2">
+                        <label>Email:</label>
+                        <p>@profile.Email</p>
+                    </div>
+                    @if (!string.IsNullOrEmpty(profile.Name))
+                    {
+                        <div class="mb-2">
+                            <label>Họ và Tên:</label>
+                            <p>@profile.Name</p>
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(profile.Gender))
+                    {
+                        <div class="mb-2">
+                            <label>Giới tính:</label>
+                            <p>@profile.Gender</p>
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(profile.PhoneNumber))
+                    {
+                        <div class="mb-2">
+                            <label>Số điện thoại:</label>
+                            <p>@profile.PhoneNumber</p>
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(profile.DateOfBirth)) // Kiểm tra chuỗi rỗng hoặc null
+                    {
+                        <div class="mb-2">
+                            <label>Ngày sinh:</label>
+                            <p>@profile.DateOfBirth</p> @* HIỂN THỊ TRỰC TIẾP CHUỖI *@@* Nếu muốn định dạng, bạn phải tự viết logic parse chuỗi thành DateTime trước *@
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="mt-4">
+                <a asp-action="EditProfile" asp-controller="Account" class="btn btn-primary btn-lg">Cập nhật thông tin</a>
+            </div>
+            <div class="card shadow-sm mt-5">
+                <div class="card-header bg-warning text-white">
+                    <h4>Đổi mật khẩu</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="ChangePassword" asp-controller="Account" method="post">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <div class="mb-3">
+                            <label for="CurrentPassword" class="form-label">Mật khẩu hiện tại</label>
+                            <input type="password" class="form-control" id="CurrentPassword" name="CurrentPassword" required />
+                            <span class="text-danger" data-valmsg-for="CurrentPassword"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Password" class="form-label">Mật khẩu mới</label>
+                            <input type="password" class="form-control" id="Password" name="Password" required />
+                            <span class="text-danger" data-valmsg-for="Password"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="ConfirmNewPassword" class="form-label">Xác nhận mật khẩu mới</label>
+                            <input type="password" class="form-control" id="ConfirmNewPassword" name="ConfirmNewPassword" required />
+                            <span class="text-danger" data-valmsg-for="ConfirmNewPassword"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning btn-lg">Đổi mật khẩu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        // XÓA DÒNG NÀY NẾU KHÔNG CÒN BẤT KỲ FORM NÀO CẦN VALIDATION SCRIPT
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

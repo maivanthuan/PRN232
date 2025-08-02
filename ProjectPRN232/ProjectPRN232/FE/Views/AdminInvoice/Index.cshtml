@@ -1,0 +1,65 @@
+﻿@model List<FE.Models.AdminInvoiceViewModel>
+@{
+    ViewData["Title"] = "Quản lý hóa đơn";
+}
+
+<div class="container py-4">
+    <h1 class="display-6 fw-bold mb-3">@ViewData["Title"]</h1>
+    <p class="text-muted">Nhấn vào một hóa đơn để xem chi tiết các sân đã đặt.</p>
+
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+    }
+
+    <div class="table-responsive card">
+        <table class="table table-hover mb-0">
+            <thead>
+                <tr>
+                    <th>Mã HĐ</th>
+                    <th>Người đặt</th>
+                    <th>Ngày đặt</th>
+                    <th class="text-end">Tổng tiền</th>
+                </tr>
+            </thead>
+            <tbody id="invoice-accordion">
+                @foreach (var invoice in Model)
+                {
+                    <tr data-bs-toggle="collapse" data-bs-target="#collapse-@invoice.TotalInvoiceId" class="accordion-toggle" style="cursor: pointer;">
+                        <td><span class="badge bg-primary">#@invoice.TotalInvoiceId</span></td>
+                        <td>@invoice.UserName (@invoice.Name)</td>
+                        <td>@invoice.BookTime?.ToString("dd/MM/yyyy")</td>
+                        <td class="text-end text-danger fw-bold">@invoice.TotalPrice?.ToString("N0") VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="p-0 border-0">
+                            <div id="collapse-@invoice.TotalInvoiceId" class="collapse" data-bs-parent="#invoice-accordion">
+                                <div class="p-3 bg-light">
+                                    <h6 class="mb-3">Chi tiết hóa đơn #@invoice.TotalInvoiceId</h6>
+                                    @if (invoice.InvoicePitches != null && invoice.InvoicePitches.Any())
+                                    {
+                                        <table class="table table-sm table-bordered bg-white">
+                                            <thead class="table-secondary">
+                                                <tr><th>Mã sân</th><th>Khung giờ</th><th class="text-end">Giá</th></tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var detail in invoice.InvoicePitches)
+                                                {
+                                                    <tr><td>@detail.PitchId</td><td>@detail.Time</td><td class="text-end">@detail.Price?.ToString("N0") VNĐ</td></tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    }
+                                    else
+                                    {
+                                        <p>Không có chi tiết nào.</p>
+                                    }
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

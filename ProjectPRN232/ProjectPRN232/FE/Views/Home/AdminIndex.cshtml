@@ -1,0 +1,156 @@
+﻿@{
+    ViewData["Title"] = "Bảng Điều Khiển Quản Trị";
+}
+
+<style>
+    /* CSS Tùy chỉnh để làm cho giao diện "vip pro" hơn */
+    body {
+        background-color: #f8f9fa; /* Màu nền nhẹ nhàng */
+    }
+
+    .admin-dashboard {
+        padding: 40px 0;
+    }
+
+    .card.admin-card {
+        border-radius: 12px; /* Bo tròn góc thẻ */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Hiệu ứng mượt mà khi hover */
+        border: none; /* Bỏ viền mặc định */
+        min-height: 180px; /* Chiều cao tối thiểu cho card */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none; /* Bỏ gạch chân link */
+        color: inherit; /* Kế thừa màu chữ */
+    }
+
+        .card.admin-card:hover {
+            transform: translateY(-8px); /* Nhấc nhẹ lên khi hover */
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Bóng đậm hơn khi hover */
+            color: white; /* Đổi màu chữ khi hover (sẽ được override bởi màu nền card) */
+        }
+
+        /* Đảm bảo màu chữ trắng trên nền màu */
+        .card.admin-card.bg-primary,
+        .card.admin-card.bg-success,
+        .card.admin-card.bg-info,
+        .card.admin-card.bg-warning {
+            color: white !important; /* Quan trọng để override màu chữ mặc định */
+        }
+
+    .card-icon {
+        font-size: 3.5rem; /* Kích thước icon lớn hơn */
+        margin-bottom: 15px;
+    }
+
+    .card-title-custom {
+        font-size: 1.4rem; /* Kích thước tiêu đề */
+        font-weight: 600; /* Đậm hơn */
+    }
+
+    .welcome-heading {
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #343a40; /* Màu chữ đậm */
+        margin-bottom: 20px;
+    }
+
+    .welcome-subtext {
+        font-size: 1.2rem;
+        color: #6c757d; /* Màu chữ nhẹ nhàng hơn */
+        margin-bottom: 40px;
+    }
+</style>
+
+<div class="container admin-dashboard">
+    <div class="text-center">
+        <h1 class="welcome-heading animate__animated animate__fadeInDown">
+            <i class="fas fa-cogs me-3"></i>Bảng Điều Khiển Quản Trị
+        </h1>
+        <p class="welcome-subtext animate__animated animate__fadeIn">Chào mừng trở lại, Admin! Hãy chọn một chức năng để bắt đầu quản lý.</p>
+    </div>
+
+    <div class="row g-4 mt-5">
+        <div class="col-md-6 col-lg-4">
+            <a asp-controller="AdminAccount" asp-action="Index" class="card admin-card bg-primary text-white">
+                <div class="card-body">
+                    <i class="fas fa-users card-icon animate__animated animate__bounceIn"></i>
+                    <h5 class="card-title-custom">Quản lý Tài khoản</h5>
+                    <p class="card-text">Xem, thêm, sửa, xóa thông tin người dùng và phân quyền.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <a asp-controller="AdminInvoice" asp-action="Index" class="card admin-card bg-success text-white">
+                <div class="card-body">
+                    <i class="fas fa-calendar-check card-icon animate__animated animate__bounceIn"></i>
+                    <h5 class="card-title-custom">Quản lý Lịch sử đặt sân</h5>
+                    <p class="card-text">Theo dõi và quản lý các lượt đặt sân của khách hàng.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <a asp-controller="Revenue" asp-action="Index" class="card admin-card bg-info text-white">
+                <div class="card-body">
+                    <i class="fas fa-chart-line card-icon animate__animated animate__bounceIn"></i>
+                    <h5 class="card-title-custom">Quản lý Doanh thu</h5>
+                    <p class="card-text">Xem báo cáo doanh thu, thống kê và phân tích tài chính.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <a asp-controller="AdminPitch" asp-action="Index" class="card admin-card bg-warning text-white">
+                <div class="card-body">
+                    <i class="fas fa-futbol card-icon animate__animated animate__bounceIn"></i>
+                    <h5 class="card-title-custom">Quản lý Sân bóng</h5>
+                    <p class="card-text">Thêm, sửa, xóa thông tin sân bóng và quản lý lịch trống.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <a asp-controller="@ViewData["ControllerName"]" asp-action="Dashboard" class="card admin-card bg-secondary text-white">
+                <div class="card-body">
+                    <i class="fas fa-tachometer-alt card-icon animate__animated animate__bounceIn"></i>
+                    <h5 class="card-title-custom">Tổng quan & Thống kê</h5>
+                    <p class="card-text">Xem biểu đồ, số liệu tổng quan về hoạt động hệ thống.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <a asp-controller="Home" asp-action="Index" class="card admin-card bg-dark text-white">
+                <div class="card-body">
+                    <i class="fas fa-home card-icon animate__animated animate__bounceIn"></i>
+                    <h5 class="card-title-custom">Quay lại Trang chủ</h5>
+                    <p class="card-text">Trở về trang chính của ứng dụng.</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-P+Q/xGjB/2fX3I0+p5w+f2Xw+jF+z+c5J+kQ+0/4g+z/jQ+5P2Q+5R+9V0w+1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script>
+        // Optional: JavaScript for additional interactivity or animations
+        // For example, if you want a subtle fade-in delay for cards
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.admin-card');
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.classList.add('animate__animated', 'animate__fadeInUp'); // Add fade-in-up animation
+                }, index * 100); // Stagger the animation
+            });
+        });
+    </script>
+}

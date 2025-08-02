@@ -1,0 +1,44 @@
+﻿@model FE.Models.LoginDTO
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "_LayoutAuth";
+}
+
+<div class="col-lg-5 col-md-8 col-sm-10">
+    <div class="card shadow-lg">
+        <div class="card-body p-5">
+            <h1 class="card-title text-center mb-4">Đăng Nhập</h1>
+            <form asp-action="Login" asp-controller="Auth" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                <div class="mb-3">
+                    <label asp-for="Username" class="form-label"></label>
+                    <input asp-for="Username" class="form-control" placeholder="Tên tài khoản hoặc email" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Mật khẩu" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check mb-4">
+                    <input class="form-check-input" asp-for="RememberMe" />
+                    <label class="form-check-label" asp-for="RememberMe">
+                        @Html.DisplayNameFor(model => model.RememberMe)
+                    </label>
+                </div>
+                <div class="d-grid">
+                    <input type="submit" value="Đăng nhập" class="btn btn-primary btn-lg" />
+                </div>
+            </form>
+            <div class="text-center mt-4">
+                <p class="text-muted mb-0">Chưa có tài khoản? <a asp-controller="Auth" asp-action="Register">Đăng ký ngay!</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

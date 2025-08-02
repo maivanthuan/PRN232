@@ -1,0 +1,1484 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\services\\pitchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\services\\pitchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\adminpitch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\adminpitch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\adminpitch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\adminpitch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\adminpitch\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\adminpitch\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\adminpitch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\adminpitch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\home\\checkboxtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\checkboxtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\projectprn232\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|solutionrelative:projectprn232\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\pitchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\pitchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\pitch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\pitch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\bookinghistory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\bookinghistory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\shared\\_layoutauth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\_layoutauth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\pitch\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\pitch\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\payment\\paymentfailed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\payment\\paymentfailed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\projectprn232\\controllers\\totalinvoicepitchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|solutionrelative:projectprn232\\controllers\\totalinvoicepitchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\services\\totalinvoicepitchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\services\\totalinvoicepitchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\iservices\\itotalinvoicepitchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\iservices\\itotalinvoicepitchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\totalinvoicepitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\totalinvoicepitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\invoicepitchitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\invoicepitchitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\bookingtimedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\bookingtimedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\bookinghistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\bookinghistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\admininvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\admininvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\projectprn232\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|solutionrelative:projectprn232\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\projectprn232\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|solutionrelative:projectprn232\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\pitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\pitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\revenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\revenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\iservices\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\iservices\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\vnpayconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\vnpayconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\services\\invoicepitchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\services\\invoicepitchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\adminpitchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\adminpitchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\pitchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\pitchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\adminaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\adminaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\models\\footballfieldmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\footballfieldmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\adminaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\adminaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\Index (2).cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\projectprn232\\projectprn232.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|solutionrelative:projectprn232\\projectprn232.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\pricepitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\pricepitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA1D6-E352-4C9E-84E5-49FF33269CFF}|Repository\\Repository.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\repository\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA1D6-E352-4C9E-84E5-49FF33269CFF}|Repository\\Repository.csproj|solutionrelative:repository\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\admininvoice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\admininvoice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\admininvoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\admininvoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\revenue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\revenue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\wwwroot\\css\\custom-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\wwwroot\\css\\custom-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\feedbackpitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\feedbackpitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\projectprn232\\controllers\\pitchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|solutionrelative:projectprn232\\controllers\\pitchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\projectprn232\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AA6DE6-8771-43A9-BFE7-DF063CA79A9E}|ProjectPRN232\\ProjectPRN232.csproj|solutionrelative:projectprn232\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\iservices\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Zalo Temp\\TempDownloads\\AccountViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Zalo Temp\\TempDownloads\\AdminAccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\revenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\revenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\jsonresponsewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\jsonresponsewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\models\\totalinvoicepitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\totalinvoicepitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\dtos\\invoicepitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\dtos\\invoicepitchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\models\\invoicepitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\invoicepitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\bookingtimeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\bookingtimeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\invoicepitchitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\invoicepitchitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\pitchdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\pitchdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\models\\feedbackpitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\feedbackpitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\businessobject\\models\\bookingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13749EDA-FAB0-401B-B15D-26C01D2AD7CB}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\bookingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\feedbackviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\feedbackviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\services\\bookingtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\services\\bookingtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\service\\iservices\\ibookingtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3F5134-C102-4B9A-8FFD-D357A97D1E49}|Service\\Service.csproj|solutionrelative:service\\iservices\\ibookingtimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|d:\\prn232\\code\\projectprn232 (2)\\projectprn232\\fe\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A602033-54B3-461B-97CA-FE5DCC3E2E31}|FE\\FE.csproj|solutionrelative:fe\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminIndex.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Home\\AdminIndex.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Home\\AdminIndex.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Home\\AdminIndex.cshtml",
+              "RelativeToolTip": "FE\\Views\\Home\\AdminIndex.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T03:04:45.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminPitch\\Create.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\AdminPitch\\Create.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminPitch\\Create.cshtml",
+              "RelativeToolTip": "FE\\Views\\AdminPitch\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T05:09:13.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminPitch\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\AdminPitch\\Delete.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminPitch\\Delete.cshtml",
+              "RelativeToolTip": "FE\\Views\\AdminPitch\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T05:11:17.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminPitch\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\AdminPitch\\Edit.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminPitch\\Edit.cshtml",
+              "RelativeToolTip": "FE\\Views\\AdminPitch\\Edit.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T05:11:32.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminPitch\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\AdminPitch\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminPitch\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\AdminPitch\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAADYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T05:11:55.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PitchService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\PitchService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\PitchService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\PitchService.cs*",
+              "RelativeToolTip": "Service\\Services\\PitchService.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowFkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T05:03:35.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckboxTest.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Home\\CheckboxTest.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Home\\CheckboxTest.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Home\\CheckboxTest.cshtml",
+              "RelativeToolTip": "FE\\Views\\Home\\CheckboxTest.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T13:28:20.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "FE\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T03:54:48.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\AccountService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\AccountService.cs",
+              "RelativeToolTip": "Service\\Services\\AccountService.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAcwKkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:28:26.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "FE\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAQwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T04:22:48.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FE\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:36:07.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PitchController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\PitchController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\PitchController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\PitchController.cs",
+              "RelativeToolTip": "FE\\Controllers\\PitchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T11:48:27.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProjectPRN232\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProjectPRN232\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwHMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:27:46.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\AccountDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\AccountDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\AccountDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T02:52:41.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\AccountDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\AccountDTO.cs",
+              "RelativeToolTip": "FE\\Models\\AccountDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T02:58:17.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T13:27:56.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FE\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACcBAAAAAAAAAAAIwD4BAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T02:55:27.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FE\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T12:39:45.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Pitch\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Pitch\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Pitch\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\Pitch\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T11:52:26.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\BookingHistory\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\BookingHistory\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\BookingHistory\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\BookingHistory\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T04:41:19.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FE\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvzoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:01:28.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_LayoutAuth.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Shared\\_LayoutAuth.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Shared\\_LayoutAuth.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Shared\\_LayoutAuth.cshtml",
+              "RelativeToolTip": "FE\\Views\\Shared\\_LayoutAuth.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T03:59:27.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Pitch\\Detail.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Pitch\\Detail.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Pitch\\Detail.cshtml",
+              "RelativeToolTip": "FE\\Views\\Pitch\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T12:28:40.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Payment\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Payment\\PaymentSuccess.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Payment\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "FE\\Views\\Payment\\PaymentSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T10:54:22.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaymentFailed.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Payment\\PaymentFailed.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Payment\\PaymentFailed.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Payment\\PaymentFailed.cshtml",
+              "RelativeToolTip": "FE\\Views\\Payment\\PaymentFailed.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T10:54:38.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TotalInvoicePitchService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\TotalInvoicePitchService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\TotalInvoicePitchService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\TotalInvoicePitchService.cs",
+              "RelativeToolTip": "Service\\Services\\TotalInvoicePitchService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwD0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:09:15.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ITotalInvoicePitchService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\IServices\\ITotalInvoicePitchService.cs",
+              "RelativeDocumentMoniker": "Service\\IServices\\ITotalInvoicePitchService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\IServices\\ITotalInvoicePitchService.cs",
+              "RelativeToolTip": "Service\\IServices\\ITotalInvoicePitchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:09:02.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TotalInvoicePitchDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\TotalInvoicePitchDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\TotalInvoicePitchDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\TotalInvoicePitchDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\TotalInvoicePitchDTO.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwBoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:21:12.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TotalInvoicePitchController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Controllers\\TotalInvoicePitchController.cs",
+              "RelativeDocumentMoniker": "ProjectPRN232\\Controllers\\TotalInvoicePitchController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Controllers\\TotalInvoicePitchController.cs",
+              "RelativeToolTip": "ProjectPRN232\\Controllers\\TotalInvoicePitchController.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAYwKwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:09:33.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InvoicePitchItemDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\InvoicePitchItemDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\InvoicePitchItemDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\InvoicePitchItemDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\InvoicePitchItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:23:38.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BookingTimeDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\BookingTimeDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\BookingTimeDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\BookingTimeDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\BookingTimeDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:14:12.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdminInvoiceController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AdminInvoiceController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\AdminInvoiceController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AdminInvoiceController.cs",
+              "RelativeToolTip": "FE\\Controllers\\AdminInvoiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:11:35.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BookingHistoryController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\BookingHistoryController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\BookingHistoryController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\BookingHistoryController.cs",
+              "RelativeToolTip": "FE\\Controllers\\BookingHistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T04:39:36.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectPRN232\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\appsettings.json",
+              "RelativeToolTip": "ProjectPRN232\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T11:15:02.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "FE\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T13:12:48.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\appsettings.json",
+              "RelativeDocumentMoniker": "FE\\appsettings.json",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\appsettings.json",
+              "RelativeToolTip": "FE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T03:06:59.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Program.cs",
+              "RelativeDocumentMoniker": "FE\\Program.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Program.cs",
+              "RelativeToolTip": "FE\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T11:30:02.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectPRN232\\Program.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Program.cs",
+              "RelativeToolTip": "ProjectPRN232\\Program.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAYwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T11:10:37.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PitchDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\PitchDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\PitchDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\PitchDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\PitchDTO.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T05:05:10.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Service\\MappingProfile.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\MappingProfile.cs",
+              "RelativeToolTip": "Service\\MappingProfile.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAjwDAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T11:18:11.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Payment\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\Payment\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T14:05:17.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RevenueDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\RevenueDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\RevenueDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\RevenueDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\RevenueDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:41:16.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\VnPayService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\VnPayService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\VnPayService.cs",
+              "RelativeToolTip": "Service\\Services\\VnPayService.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAYwAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:18:06.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\IServices\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "Service\\IServices\\IVnPayService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\IServices\\IVnPayService.cs",
+              "RelativeToolTip": "Service\\IServices\\IVnPayService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:14:08.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "VnPayConfig.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\VnPayConfig.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\VnPayConfig.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\VnPayConfig.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\VnPayConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:12:57.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "InvoicePitchService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\InvoicePitchService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\InvoicePitchService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\InvoicePitchService.cs",
+              "RelativeToolTip": "Service\\Services\\InvoicePitchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:00:54.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\Account.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\Account.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\Account.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:43:29.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:02:14.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\PaymentViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\PaymentViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\PaymentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T13:12:26.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\LoginDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "FE\\Models\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T02:58:37.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AdminPitchController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AdminPitchController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\AdminPitchController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AdminPitchController.cs",
+              "RelativeToolTip": "FE\\Controllers\\AdminPitchController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwC0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T05:16:12.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PitchViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\PitchViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\PitchViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\PitchViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\PitchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T11:42:55.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AdminAccountController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AdminAccountController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\AdminAccountController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\AdminAccountController.cs",
+              "RelativeToolTip": "FE\\Controllers\\AdminAccountController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:26:19.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index (2).cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Index (2).cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Index (2).cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T05:39:36.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminAccount\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\AdminAccount\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminAccount\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\AdminAccount\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T03:57:06.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAN4AAAAAAAAAAAArwBABAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-29T09:14:59.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FootballFieldManagerContext.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\FootballFieldManagerContext.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\FootballFieldManagerContext.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\FootballFieldManagerContext.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\FootballFieldManagerContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wCMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T09:15:09.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ProjectPRN232.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\ProjectPRN232.csproj",
+              "RelativeDocumentMoniker": "ProjectPRN232\\ProjectPRN232.csproj",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\ProjectPRN232.csproj",
+              "RelativeToolTip": "ProjectPRN232\\ProjectPRN232.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-29T05:19:28.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Service\\Service.csproj",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Service.csproj",
+              "RelativeToolTip": "Service\\Service.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-29T05:08:02.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PricePitchDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\PricePitchDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\PricePitchDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\PricePitchDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\PricePitchDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T05:07:06.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Repository\\IRepositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepositories\\IUnitOfWork.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Repository\\IRepositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repository\\IRepositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T05:02:51.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AdminInvoiceViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\AdminInvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\AdminInvoiceViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\AdminInvoiceViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\AdminInvoiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:11:16.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminInvoice\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\AdminInvoice\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\AdminInvoice\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\AdminInvoice\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwEAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T15:12:01.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Revenue\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Revenue\\Index.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Revenue\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\Revenue\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwAAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T01:43:27.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "FE\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAIBJwMQAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T03:54:56.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "custom-theme.css",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\wwwroot\\css\\custom-theme.css",
+              "RelativeDocumentMoniker": "FE\\wwwroot\\css\\custom-theme.css",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\wwwroot\\css\\custom-theme.css",
+              "RelativeToolTip": "FE\\wwwroot\\css\\custom-theme.css",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-29T03:51:48.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "FeedbackPitchDto.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\FeedbackPitchDto.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\FeedbackPitchDto.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\FeedbackPitchDto.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\FeedbackPitchDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T14:48:59.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "PitchController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Controllers\\PitchController.cs",
+              "RelativeDocumentMoniker": "ProjectPRN232\\Controllers\\PitchController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Controllers\\PitchController.cs",
+              "RelativeToolTip": "ProjectPRN232\\Controllers\\PitchController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:16:54.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Account\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Account\\EditProfile.cshtml",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Views\\Account\\EditProfile.cshtml",
+              "RelativeToolTip": "FE\\Views\\Account\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T03:37:10.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProjectPRN232\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\ProjectPRN232\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProjectPRN232\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:33:19.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AccountViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\AccountViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\AccountViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\AccountViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\AccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:26:43.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\IServices\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\IServices\\IAccountService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\IServices\\IAccountService.cs",
+              "RelativeToolTip": "Service\\IServices\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:28:19.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "AccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\Zalo Temp\\TempDownloads\\AccountViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\Zalo Temp\\TempDownloads\\AccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:26:30.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "AdminAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\Zalo Temp\\TempDownloads\\AdminAccountController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\Zalo Temp\\TempDownloads\\AdminAccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T03:25:54.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "FE\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "FE\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-29T02:57:49.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "RevenueViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\RevenueViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\RevenueViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\RevenueViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\RevenueViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T02:07:05.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "JsonResponseWrapper.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\JsonResponseWrapper.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\JsonResponseWrapper.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\JsonResponseWrapper.cs",
+              "RelativeToolTip": "FE\\Models\\JsonResponseWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:56:18.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "RevenueController.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\RevenueController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\RevenueController.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Controllers\\RevenueController.cs",
+              "RelativeToolTip": "FE\\Controllers\\RevenueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:42:56.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "TotalInvoicePitch.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\TotalInvoicePitch.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\TotalInvoicePitch.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\TotalInvoicePitch.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\TotalInvoicePitch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:32:54.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "InvoicePitchDTO.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\InvoicePitchDTO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DTOs\\InvoicePitchDTO.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\DTOs\\InvoicePitchDTO.cs",
+              "RelativeToolTip": "BusinessObject\\DTOs\\InvoicePitchDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:21:06.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "InvoicePitch.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\InvoicePitch.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\InvoicePitch.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\InvoicePitch.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\InvoicePitch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T01:45:34.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "BookingTimeViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\BookingTimeViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\BookingTimeViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\BookingTimeViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\BookingTimeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:27:41.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "InvoicePitchItemViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\InvoicePitchItemViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\InvoicePitchItemViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\InvoicePitchItemViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\InvoicePitchItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:10:51.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "FeedbackPitch.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\FeedbackPitch.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\FeedbackPitch.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\FeedbackPitch.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\FeedbackPitch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T14:48:54.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "PitchDetailViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\PitchDetailViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\PitchDetailViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\PitchDetailViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\PitchDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:27:57.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "BookingTime.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\BookingTime.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\BookingTime.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\BusinessObject\\Models\\BookingTime.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\BookingTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:08:50.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "FeedbackViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\FeedbackViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\FeedbackViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\FeedbackViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\FeedbackViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:27:24.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IBookingTimeService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\IServices\\IBookingTimeService.cs",
+              "RelativeDocumentMoniker": "Service\\IServices\\IBookingTimeService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\IServices\\IBookingTimeService.cs",
+              "RelativeToolTip": "Service\\IServices\\IBookingTimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:14:39.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "BookingTimeService.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\BookingTimeService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\BookingTimeService.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\Service\\Services\\BookingTimeService.cs",
+              "RelativeToolTip": "Service\\Services\\BookingTimeService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:14:33.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "FE\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\PRN232\\code\\ProjectPRN232 (2)\\ProjectPRN232\\FE\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "FE\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T11:57:30.745Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1308,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

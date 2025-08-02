@@ -1,0 +1,93 @@
+﻿@model List<FE.Models.RevenueViewModel.YearlyRevenueDTO>
+@{
+    ViewData["Title"] = "Thống kê doanh thu";
+}
+
+<div class="container py-4">
+    <div class="card">
+        <div class="card-header">
+            <h4><i class="fas fa-chart-line me-2"></i>@ViewData["Title"]</h4>
+        </div>
+        <div class="card-body p-4">
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+            }
+            else
+            {
+                <div class="mb-4" style="max-width: 250px;">
+                    <label for="yearSelector" class="form-label">Chọn năm để xem:</label>
+                    <select id="yearSelector" class="form-select"></select>
+                </div>
+                <div style="position: relative; height:45vh; width:100%">
+                    <canvas id="revenueChart"></canvas>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // TOÀN BỘ SCRIPT GIỮ NGUYÊN, KHÔNG THAY ĐỔI
+        document.addEventListener('DOMContentLoaded', function () {
+            const allRevenueData = @Html.Raw(Json.Serialize(Model));
+            const yearSelector = document.getElementById('yearSelector');
+            const chartCanvas = document.getElementById('revenueChart').getContext('2d');
+            let revenueChart;
+            function renderChartForYear(year) {
+                const yearData = allRevenueData.find(data => data.year == year);
+                const monthlyRevenues = new Array(12).fill(0);
+                if (yearData) {
+                    yearData.monthlyBreakdown.forEach(item => {
+                        monthlyRevenues[item.month - 1] = item.totalMonthlyRevenue;
+                    });
+                }
+                const chartConfig = {
+                    labels: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
+                    datasets: [{
+                        label: `Doanh thu năm ${year}`,
+                        data: monthlyRevenues,
+                        backgroundColor: 'rgba(0, 123, 255, 0.1)',
+                        borderColor: 'rgba(0, 123, 255, 1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4
+                    }]
+                };
+                if (revenueChart) {
+                    revenueChart.destroy();
+                }
+                revenueChart = new Chart(chartCanvas, {
+                    type: 'line',
+                    data: chartConfig,
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: { y: { beginAtZero: true, ticks: { callback: value => new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(value) } } },
+                        plugins: { tooltip: { callbacks: { label: context => `${context.dataset.label || ''}: ${new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(context.parsed.y)}` } } }
+                    }
+                });
+            }
+            function initializePage() {
+                 if (!allRevenueData || allRevenueData.length === 0) { return; }
+                allRevenueData.sort((a, b) => b.year - a.year);
+                yearSelector.innerHTML = '';
+                allRevenueData.forEach(data => {
+                    const option = document.createElement('option');
+                    option.value = data.year;
+                    option.textContent = data.year;
+                    yearSelector.appendChild(option);
+                });
+                if(allRevenueData.length > 0) {
+                   renderChartForYear(allRevenueData[0].year);
+                }
+            }
+            yearSelector.addEventListener('change', function () {
+                renderChartForYear(this.value);
+            });
+            initializePage();
+        });
+    </script>
+}

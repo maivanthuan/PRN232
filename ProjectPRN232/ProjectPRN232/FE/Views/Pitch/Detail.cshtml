@@ -1,0 +1,161 @@
+﻿@model FE.Models.PitchDetailViewModel
+@{
+    ViewData["Title"] = $"Chi tiết sân {Model.Pitch.PitchId}";
+}
+
+<div class="container py-4">
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <div class="row g-4">
+        <div class="col-lg-7">
+            <div class="card mb-4">
+                <img src="@(Model.Pitch.Image ?? "placeholder.jpg")" class="card-img-top" alt="Ảnh sân @Model.Pitch.PitchId" style="max-height: 400px; object-fit: cover;">
+                <div class="card-body p-4">
+                    <h2 class="card-title">Sân @Model.Pitch.PitchId</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item px-0"><strong>Loại sân:</strong> Sân @Model.Pitch.PitchType người</li>
+                        <li class="list-group-item px-0"><strong>Trạng thái:</strong> @(Model.Pitch.Status == 1 ? "Sẵn sàng" : "Bảo trì")</li>
+                        <li class="list-group-item px-0"><strong>Giá hiện tại:</strong> <span class="fw-bold fs-5 text-danger">@Model.Pitch.PricePitch.ToString("N0") VNĐ</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="mb-3">Phản hồi từ người dùng</h3>
+            <div class="feedback-section mb-4">
+                @if (Model.Feedbacks != null && Model.Feedbacks.Any())
+                {
+                    foreach (var feedback in Model.Feedbacks)
+                    {
+                        <div class="card mb-3"><div class="card-body"><h6 class="card-subtitle mb-2 text-muted">@feedback.UserName - <span class="text-warning">@feedback.Rating ★</span></h6><p class="card-text">@feedback.Content</p></div></div>
+                    }
+                }
+                else
+                {
+                    <p>Chưa có phản hồi nào.</p>
+                }
+            </div>
+
+            <h3 class="mb-3">Gửi phản hồi của bạn</h3>
+            <div class="card"><div class="card-body p-4"><form asp-action="AddFeedback" asp-controller="Pitch" method="post"><input type="hidden" asp-for="NewFeedback.PitchId" value="@Model.Pitch.PitchId" /><div class="mb-3"><label asp-for="NewFeedback.Rating" class="form-label">Đánh giá</label><input type="number" asp-for="NewFeedback.Rating" class="form-control" min="1" max="5" step="0.5" required /></div><div class="mb-3"><label asp-for="NewFeedback.Content" class="form-label">Nội dung</label><textarea asp-for="NewFeedback.Content" class="form-control" rows="3" placeholder="Sân rất tốt..." required></textarea></div><button type="submit" class="btn btn-success">Gửi phản hồi</button></form></div></div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="card" style="position: sticky; top: 20px;">
+                <div class="card-header"><h3>Chọn khung giờ</h3></div>
+                <form asp-action="Index" asp-controller="Payment" method="post">
+                    <div class="card-body p-4">
+                        <input type="hidden" name="PitchId" value="@Model.Pitch.PitchId" />
+                        <input type="hidden" name="SelectedDate" value="@Model.SelectedDate.ToString("yyyy-MM-dd")" />
+                        <input type="hidden" id="totalPriceInput" name="TotalPrice" value="0" />
+                        <div class="mb-3"><label for="date-selector" class="form-label">Chọn ngày:</label><input type="date" id="date-selector" value="@Model.SelectedDate.ToString("yyyy-MM-dd")" class="form-control" /></div>
+                        <hr />
+                        <h5 class="mb-3">Khung giờ trống ngày @Model.SelectedDate.ToString("dd/MM/yyyy")</h5>
+                        <div id="slots-container" class="d-flex flex-wrap gap-2">
+                            @if (Model.AvailableSlots != null && Model.AvailableSlots.Any())
+                            {
+                                @for (var i = 0; i < Model.AvailableSlots.Count; i++)
+                                {
+                                    var slot = Model.AvailableSlots[i];
+                                    <div class="slot-item"><input type="checkbox" name="SelectedCombinedSlots" value="@slot.BookingTimeId|@slot.Time" id="slot-@i" class="slot-checkbox" /><label for="slot-@i" class="btn btn-outline-success w-100">@slot.Time</label></div>
+                                }
+                            }
+                            else
+                            {
+                                <p>Không có khung giờ nào trống.</p>
+                            }
+                        </div>
+                    </div>
+                    <div class="card-footer text-center p-3"><h4 class="mb-3">Tổng tiền: <span id="totalPriceDisplay" class="text-danger fw-bold">0 VNĐ</span></h4><button type="submit" class="btn btn-primary w-100 btn-lg">Tiến hành đặt sân</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .slot-item {
+            width: calc(33.333% - 7px);
+        }
+
+        .slot-checkbox {
+            display: none;
+        }
+
+            .slot-checkbox:checked + label {
+                background-color: var(--success-color);
+                color: white;
+                border-color: var(--success-color);
+            }
+
+        /* ----- CSS CHO THANH CUỘN FEEDBACK ----- */
+        .feedback-section {
+            max-height: 500px;
+            overflow-y: auto;
+            padding-right: 15px;
+            padding-left: 5px;
+        }
+
+            .feedback-section::-webkit-scrollbar {
+                width: 8px;
+            }
+
+            .feedback-section::-webkit-scrollbar-track {
+                background: #f1f1f1;
+                border-radius: 10px;
+            }
+
+            .feedback-section::-webkit-scrollbar-thumb {
+                background: #888;
+                border-radius: 10px;
+            }
+
+                .feedback-section::-webkit-scrollbar-thumb:hover {
+                    background: #555;
+                }
+        /* ----------------------------------------- */
+    </style>
+}
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dateSelector = document.getElementById('date-selector');
+            const pitchId = '@Model.Pitch.PitchId';
+
+            const today = new Date();
+            const minDateFormat = today.toISOString().split('T')[0];
+            dateSelector.setAttribute('min', minDateFormat);
+
+            dateSelector.addEventListener('change', function () {
+                window.location.href = `/Pitch/Detail/${pitchId}?selectedDate=${this.value}`;
+            });
+
+            const slotsContainer = document.getElementById('slots-container');
+            const totalPriceDisplay = document.getElementById('totalPriceDisplay');
+            const totalPriceInput = document.getElementById('totalPriceInput');
+            const pricePerSlot = parseInt('@Model.Pitch.PricePitch');
+
+            slotsContainer.addEventListener('change', function (event) {
+                if (event.target.classList.contains('slot-checkbox')) {
+                    calculateTotalPrice();
+                }
+            });
+
+            function calculateTotalPrice() {
+                const selectedCount = slotsContainer.querySelectorAll('.slot-checkbox:checked').length;
+                const total = selectedCount * pricePerSlot;
+
+                totalPriceDisplay.textContent = total.toLocaleString('vi-VN') + ' VNĐ';
+                totalPriceInput.value = total;
+            }
+        });
+    </script>
+}

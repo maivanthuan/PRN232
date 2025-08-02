@@ -1,0 +1,70 @@
+﻿@model FE.Models.PaymentViewModel
+
+@{
+    ViewData["Title"] = "Xác nhận và Thanh toán";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+    <hr />
+
+    @* Hiển thị thông báo lỗi từ TempData nếu có *@
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h4>Thông tin đặt sân</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4">Sân bóng:</dt>
+                <dd class="col-sm-8">@Model.PitchId</dd>
+
+                <dt class="col-sm-4">Ngày đặt:</dt>
+                <dd class="col-sm-8">@Model.SelectedDate.ToString("dd/MM/yyyy")</dd>
+
+                <dt class="col-sm-4">Các khung giờ đã chọn:</dt>
+                <dd class="col-sm-8">
+                    @if (Model.SelectedSlots != null && Model.SelectedSlots.Any())
+                    {
+                        <ul class="list-unstyled">
+                            @for (var i = 0; i < Model.SelectedSlots.Count; i++)
+                            {
+                                <li>
+                                    <strong>@Model.SelectedSlotTimes[i]</strong> (ID: @Model.SelectedSlots[i])
+                                </li>
+                            }
+                        </ul>
+                    }
+                </dd>
+
+                <dt class="col-sm-4 border-top pt-3">Tổng cộng:</dt>
+                <dd class="col-sm-8 border-top pt-3">
+                    <h4 class="text-danger fw-bold">@Model.TotalPrice.ToString("N0") VNĐ</h4>
+                </dd>
+            </dl>
+
+            <form id="paymentForm" asp-action="InitiateVnPayPayment" asp-controller="Payment" method="post">
+                <input type="hidden" name="PitchId" value="@Model.PitchId" />
+                <input type="hidden" name="SelectedDate" value="@Model.SelectedDate.ToString("yyyy-MM-dd")" />
+                <input type="hidden" name="TotalPrice" value="@Model.TotalPrice" /> @* Đảm bảo TotalPrice được gửi *@
+                @if (Model.SelectedSlots != null)
+                {
+                    @for (var i = 0; i < Model.SelectedSlots.Count; i++)
+                    {
+                        <input type="hidden" name="SelectedSlots[@i]" value="@Model.SelectedSlots[i]" />
+                        <input type="hidden" name="SelectedSlotTimes[@i]" value="@Model.SelectedSlotTimes[i]" />
+                    }
+                }
+                <div class="d-flex justify-content-end mt-4">
+                    <button type="submit" class="btn btn-success btn-lg">Thanh toán VNPay</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
